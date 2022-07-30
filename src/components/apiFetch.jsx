@@ -11,7 +11,7 @@ const FetchApi=({searchVal})=>{
   const [count,setCount]=useState(false);
   
   
-   const url="https://api.themoviedb.org/3/search/movie?&api_key=04c35731a5ee918f014970082a0088b1&query=";
+   const url="https://api.themoviedb.org/3/search/movie?&api_key=YOUR_API_KEY&query="; // use your own API key to fetch the Movie Data.
    const imageData="https://image.tmdb.org/t/p/w1280";
    const blueDark=()=>{
      fetch(`${url}${searchVal}`).then((res)=>{
