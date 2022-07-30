@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import FooterSection from './components/container';
+import Navbar from './components/navbar';
 function App() {
   return (
-   <FooterSection/>
+   <Navbar/>
   );
 }
 
